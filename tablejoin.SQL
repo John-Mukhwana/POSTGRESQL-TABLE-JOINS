@@ -61,7 +61,7 @@
 
 -- INNER JOIN products ON  orders.productID=products.productID;
 
-   ----Left JOIN
+   ----Left JOIN---
 -- SELECT customers.customerId, customers.customerName,customers.contactName,products.productName,orders.orderDate
 -- FROM customers
 -- LEFT JOIN orders ON customers.customerid=orders.customerID
