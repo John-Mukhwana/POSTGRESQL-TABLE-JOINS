@@ -35,5 +35,5 @@ where id = receiver;
 commit;
 END; $$;
 
-Call transfers(1, 2, 1000);
+Call transfers(1, 2, 2000);
 SELECT * FROM accounts;
