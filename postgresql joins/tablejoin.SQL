@@ -61,7 +61,7 @@
 
 -- INNER JOIN products ON  orders.productID=products.productID;
 
-   ----Left JOIN---
+   ----Left JOIN
 -- SELECT customers.customerId, customers.customerName,customers.contactName,products.productName,orders.orderDate
 -- FROM customers
 -- LEFT JOIN orders ON customers.customerid=orders.customerID
@@ -70,10 +70,10 @@
 -- customers.customerId ASC;
 
  ---NULL Cenario ADD customer Rehema Shufaa to the customer table 
-SELECT customers.customerId, customers.customerName, orders.orderID
-FROM customers
-LEFT JOIN orders ON customers.customerId = orders.customerID
-ORDER BY customers.customerId;
+-- SELECT customers.customerId, customers.customerName, orders.orderID
+-- FROM customers
+-- LEFT JOIN orders ON customers.customerId = orders.customerID
+-- ORDER BY customers.customerId;
 
 
 
